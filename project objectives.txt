@@ -1,0 +1,37 @@
+write a function
+write a recursive function
+make an external network connection / REST API
+create a REST API
+read/write files
+database connection
+data structure (linked list, map, bucket)
+sorts (bubble, quick sort)
+string parsing (split, find/regex, CSV, JSON, YAML, properties)
+"structs"
+threading (mutex)
+Make a UI
+exception handling
+logging
+attach debugger
+configuration management
+user input/output
+command-line arguments
+random
+
+
+print prime number up to X
+mortgage intrest calculator
+decimal time
+stop watch
+to/from binary
+to/from base64
+to/from hex
+reverse a string
+linked list
+
+
+formatting strings / number output
+printing of custom object
+"javadoc"
+compile/package project
+read from resource file
