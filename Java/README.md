@@ -7,3 +7,14 @@ In order to do Java development, you'll need to download a Java JDK (Java Develo
 
 https://www.oracle.com/java/technologies/downloads/
 https://openjdk.org/install/
+
+
+## Compiling the Code
+Simple projects can be compiled using the `javac` command. More complex projects
+may use a package and build manager such as `maven` or `gradle` to compile. The use of
+`ant` is discouraged.
+
+
+## Running the Code
+Most project should be able to run using the `java` command. Projects that build to a jar file
+should specify the main class within the jar manifest.
