@@ -1,37 +1,92 @@
-write a function
-write a recursive function
-make an external network connection / REST API
-create a REST API
-read/write files
-database connection
-data structure (linked list, map, bucket)
-sorts (bubble, quick sort)
-string parsing (split, find/regex, CSV, JSON, YAML, properties)
-"structs"
-threading (mutex)
-Make a UI
-exception handling
-logging
-attach debugger
-configuration management
-user input/output
-command-line arguments
-random
+1. Hello World
+
+Write a self contained program that can be executed from the command line. The program should output the string "Hello World" to the standard output channel. Introduce the basic structure and formatting of the language.
+
+Input: None
+Output: "Hello World"
 
 
-print prime number up to X
-mortgage intrest calculator
-decimal time
-stop watch
-to/from binary
-to/from base64
-to/from hex
-reverse a string
-linked list
+2. Comments
+
+The execution of the program is not critical, but it should be able to compile and run. Demonstrate
+Single and multi-line comments and commenting of different types of code elements. No need to demonstrate the API automated documentation covered by #13
+
+Input: None
+Output: None
 
 
-formatting strings / number output
-printing of custom object
-"javadoc"
-compile/package project
-read from resource file
+3. Variables
+
+Demonstrate instantiating each of the supported native variable types of the language. Some types may
+have more than one way to instantiate, so it should demonstrate as appropriate. Introduce the concept of scope as applies to the language. Include a demonstration of a constant. Introduce any concept of global variables.
+
+Input: None
+Output: Variable name, type, and value
+
+
+4. Mathematical Operations
+
+Instantiate multiple numerical variable types and perform basic mathematical operations: addition, subtraction, multiplication, division, modulus, and bit shifts.
+
+Input: None
+Output: Reference to mathematical operation and the result
+
+
+5. Conditionals + Logical Operators
+
+Demonstrate simple logical conditional execution. Demonstrate compound logical tests. Demonstrated nested conditional statements. Demonstrate if/else conditionals. Demonstrate serial conditionals and/or switch statements.
+
+Input: None
+Output: Print statements that demonstrate conditional evaluations and their results
+
+
+6. Type Conversion
+7. Arrays
+8. Loops
+9. Function
+10. Recursive Functions
+11. Accepting command-line arguments (no libraries)
+12. Project / Code Organization
+13. Import Libraries
+14. Automated API documentation
+15. Logging
+16. Exception Handling
+17. Read and Write a File
+18. Accept Command Line args via Library
+19. Random
+20. Interactive User IO via STDIN / STDOUT
+21. Formatted Output
+22. String Parsing
+
+Demonstrate the ability to find substrings, verify that a string matches a pattern (regex), and convert strings into basic data types (numbers or boolean).
+
+
+23. Advanced String Parsing (YAML, JSON, XML, CSV, properties, BASE64, Hex)
+24. Sorting (Manual Implementation)
+25. Sorting (Built-in or Library provided)
+26. Time
+27. Create Simple Custom Object (e.g. Struct)
+28. Enumeration type
+29. Create Object with behaviors
+30. Package Project
+31. Object to String
+32. Comparing Custom Objects (e.g. sorting and equality)
+33. Simple Inheritance
+34. Complex Inheritance
+
+Multiple Inheritance. Final classes. Final methods.
+
+
+35. Reading Configuration File / Resource File
+36. Threading
+37. Make a database connection
+38. Make a HTTP connection
+39. Make a HTTP connection with 1-way SSL
+40. Make a HTTP connection with 2-way SSL
+41. Make a simple UI application
+42. Create a REST interface
+43. Working with large numbers
+44. Symmetric Encryption (via library)
+45. Asymmetric Encryption (via library)
+
+
