@@ -1,3 +1,35 @@
+# IDE files
 .idea/
-**.class
-**.tasty
+.vs/
+
+# Bash
+
+
+# Java
+Java/**/*.class
+Java/**/*.jar
+Java/**/target/
+
+
+# Scala
+Scala/**/*.tasty
+Scala/**/*.class
+Scala/**/*.jar
+Scala/**/target/
+
+# NodeJS
+
+
+# Python
+Python/**/*.whl
+Python/**/*.egg
+
+# Go
+
+
+# Rust
+Rust/**/*.exe
+Rust/**/*.pdb
+
+# C++
+C++/**/*.exe
