@@ -41,52 +41,63 @@ Output: Print statements that demonstrate conditional evaluations and their resu
 
 
 6. Type Conversion
+
+Demonstrate converting each of the data types into any of the acceptable other types.
+
+Input: None
+Output: Standard out statements that show the original value and the value after convertion
+
+
 7. Arrays
+
+Construct an array of any data type. Construct one of a fixed size and one using a variable. Construct a multi-dimensional array.
+
 8. Loops
 9. Function
 10. Recursive Functions
 11. Accepting command-line arguments (no libraries)
-12. Project / Code Organization
-13. Import Libraries
-14. Automated API documentation
-15. Logging
-16. Exception Handling
-17. Read and Write a File
-18. Accept Command Line args via Library
-19. Random
-20. Interactive User IO via STDIN / STDOUT
-21. Formatted Output
-22. String Parsing
+12. Accessing Environment & Global Variables
+13. Project / Code Organization
+14. Import Libraries
+15. Automated API documentation
+16. Logging
+17. Exception Handling
+18. Read and Write a File
+19. Accept Command Line args via Library
+20. Random
+21. Interactive User IO via STDIN / STDOUT
+22. Formatted Output
+23. String Parsing
 
-Demonstrate the ability to find substrings, verify that a string matches a pattern (regex), and convert strings into basic data types (numbers or boolean).
+Concatenate, split, find, matche a pattern (regex), to upper, to lower
 
 
-23. Advanced String Parsing (YAML, JSON, XML, CSV, properties, BASE64, Hex)
-24. Sorting (Manual Implementation)
-25. Sorting (Built-in or Library provided)
-26. Time
-27. Create Simple Custom Object (e.g. Struct)
-28. Enumeration type
-29. Create Object with behaviors
-30. Package Project
-31. Object to String
-32. Comparing Custom Objects (e.g. sorting and equality)
-33. Simple Inheritance
-34. Complex Inheritance
+24. Advanced String Parsing (YAML, JSON, XML, CSV, properties, BASE64, Hex)
+25. Sorting (Manual Implementation)
+26. Sorting (Built-in or Library provided)
+27. Time
+28. Create Simple Custom Object (e.g. Struct)
+29. Enumeration type
+30. Create Object with behaviors
+31. Package Project
+32. Object to String
+33. Comparing Custom Objects (e.g. sorting and equality)
+34. Simple Inheritance
+35. Complex Inheritance
 
 Multiple Inheritance. Final classes. Final methods.
 
 
-35. Reading Configuration File / Resource File
-36. Threading
-37. Make a database connection
-38. Make a HTTP connection
-39. Make a HTTP connection with 1-way SSL
-40. Make a HTTP connection with 2-way SSL
-41. Make a simple UI application
-42. Create a REST interface
-43. Working with large numbers
-44. Symmetric Encryption (via library)
-45. Asymmetric Encryption (via library)
+36. Reading Configuration File / Resource File
+37. Threading
+38. Make a database connection
+39. Make a HTTP connection
+40. Make a HTTP connection with 1-way SSL
+41. Make a HTTP connection with 2-way SSL
+42. Make a simple UI application
+43. Create a REST interface
+44. Working with large numbers
+45. Symmetric Encryption (via library)
+46. Asymmetric Encryption (via library)
 
 
