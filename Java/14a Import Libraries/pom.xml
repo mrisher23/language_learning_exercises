@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!-- ^^^^ This header information is just some XML bookkeeping that you can copy into your own project. -->
+
+    <!-- The groupId is required and should match the convention we saw in project 13 using our domain name. -->
+    <groupId>com.github.mrisher23</groupId>
+
+    <!-- The artifactId should reflect your project name. It should avoid spaces and special characters. This
+     is how others will reference your project along with the groupId. -->
+    <artifactId>importLibraries</artifactId>
+
+    <!-- Java uses this to specify the version of the jar file that is produced by this project.
+     The format [major version].[minor version].[bug fix / build no.] is a common format for versioning.
+     Changing the major version has no obligation to maintain compatibility with prior versions. A minor
+     version change can add new features, but should be generally compatible with prior versions of the code.
+     Incrementing the bug fix number should only address unwanted behaviors in the code.
+
+     The keyword SNAPSHOT in the version means that this is a development build (versus a release build). Because
+     it is a development build, no expectation is made for code stability but is more of a preview of a future release
+     of the same version number without the SNAPSHOT suffix.
+     -->
+    <version>1.0-SNAPSHOT</version>
+
+
+
+    <!-- This is the location where we can reference other's published libraries for use within our code.
+     The maven tool automatically checks https://repo.maven.apache.org/maven2/ for the jar files named in the section
+     below. If you have a private jar repository or local files, that can be configured within this file as well. -->
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <scope>compile</scope>
+            <version>3.12.0</version>
+        </dependency>
+        <dependency>
+            <!-- The version attribute is optional, but should be included to avoid errors
+             from unpredictable versions. -->
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <scope>compile</scope>
+            <version>3.6.1</version>
+        </dependency>
+    </dependencies>
+
+
+	<!-- This section sets the compiled source code to be compatible with Java 1.8+.
+	This is not necessary but generally a good practice to be specific what version
+	we are trying to compile against. -->
+    <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>com.github.mrisher23.importLib.run.Driver</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <configuration>
+                    <mainClass>com.github.mrisher23.importLib.run.Driver</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    
+    <!-- Maven POM files can be very simple to very complicated. This is not an all inclusive guide 
+    to creating Maven configuration files. -->
+</project>
