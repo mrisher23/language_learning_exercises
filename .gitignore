@@ -1,6 +1,10 @@
 # IDE files
 .idea/
 .vs/
+.settings/
+.project
+.gradle/
+build/
 
 # Bash
 
@@ -9,6 +13,7 @@
 Java/**/*.class
 Java/**/*.jar
 Java/**/target/
+Java/**/*.classpath
 
 
 # Scala
