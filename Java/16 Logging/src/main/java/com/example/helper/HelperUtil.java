@@ -19,7 +19,7 @@ public class HelperUtil {
 
     public static void printAnnoyingDebugMessages() {
         for(int i =0 ; i < 15; i++) {
-            log.info("I'm annoying");
+            log.debug("I'm annoying");
         }
     }
 }

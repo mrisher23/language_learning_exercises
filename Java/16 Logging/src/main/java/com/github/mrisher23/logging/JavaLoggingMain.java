@@ -9,10 +9,10 @@ public class JavaLoggingMain {
     public static void main(String[] args) {
         log.entering(JavaLoggingMain.class.getName(), "main");
 
-        log.info("This is an INFO logging message");
         log.fine("This is a FINE logging message");
         log.finer("This is a FINER logging message");
         log.finest("This is a FINEST logging message");
+        log.info("This is an INFO logging message");
         log.severe("This is a SEVERE logging message");
         log.warning("This is a WARNING logging message");
         log.throwing(JavaLoggingMain.class.getName(), "main", new Exception("This is an Exception message"));
