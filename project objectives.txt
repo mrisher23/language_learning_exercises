@@ -135,20 +135,60 @@ Demonstrate how to accept command-line arguments that use command line flags (-D
 Demonstrate how to generate and use random number generator. Random float (0.0 - 1.0), random integer, random within an arbitrary range. Any capability for non-normal distribution.
 
 
-21. Interactive User IO via STDIN / STDOUT
-22. Formatted Output
-23. String Manipulation
+21. Time
+
+Demonstrate how to get the ability to get the current date/time; do some simple calculations moving the time forward or backward;
+compare two times and parse a string which contains a time representation.
+
+
+22. Interactive User IO via STDIN / STDOUT
+
+Demonstrate how to get interactive input from the user using the STDIN channel. This can include some parsing and validation
+of user input values.
+
+
+23. Formatted Output
+
+Demonstrate formatting output to STDOUT. Show formatting of dates, decimal numbers and padding of strings.
+
+
+24. String Manipulation
 
 Demonstrate the ability to find substrings, verify that a string matches a pattern (regex), and convert strings into basic data types (numbers or boolean). Concatenate strings.
 
 
-24. Advanced String Parsing (YAML, JSON, XML, CSV, properties, BASE64, Hex)
-25. Sorting (Manual Implementation)
-26. Sorting (Built-in or Library provided)
-27. Time
+25. Advanced String Parsing (YAML, JSON, XML, CSV, properties, BASE64, Hex)
+
+Demonstrate (with libraries if necessary) how to read and work with various structured data types such
+as properties files, XML, CSV, JSON and YAML. Show how to convert data to/from HEX and BASE64 types.
+
+
+26. Sorting (Manual Implementation)
+
+Create a simple list of numbers or strings and implement one of the standard sorting algorithms.
+
+
+27. Sorting (Built-in or Library provided)
+
+Create a simple list of numbers or string and use built-in or standard libraries to sort the data.
+Can use larger lists populated by loop or random content.
+
+
 28. Create Simple Custom Object (e.g. Struct)
+
+Create a simple object with several properties (variables) and a few functions.
+
+
 29. Enumeration type
+
+Create an Enumeration type such as DaysOfTheWeek. Demonstrate any special features of the language.
+
+
 30. Create Object with behaviors
+
+Create a more complex object that can do something with any needed variables and functions.
+
+
 31. Package Project
 32. Object to String
 33. Comparing Custom Objects (e.g. sorting and equality)
