@@ -5,6 +5,7 @@ package com.github.mrisher23.importLib.run;
 //We can now import some of the files that come from the libraries that maven imported
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.math3.primes.Primes;
+//All Java code implicitly imports all classes from java.lang.*
 
 public class Driver {
 
